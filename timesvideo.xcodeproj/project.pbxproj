@@ -1,0 +1,297 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FD3249591BC4C28F00CDA4B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3249581BC4C28F00CDA4B0 /* AppDelegate.swift */; };
+		FD32495B1BC4C28F00CDA4B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD32495A1BC4C28F00CDA4B0 /* ViewController.swift */; };
+		FD32495E1BC4C28F00CDA4B0 /* timesvideo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD32495C1BC4C28F00CDA4B0 /* timesvideo.xcdatamodeld */; };
+		FD3249611BC4C28F00CDA4B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD32495F1BC4C28F00CDA4B0 /* Main.storyboard */; };
+		FD3249631BC4C28F00CDA4B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD3249621BC4C28F00CDA4B0 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FD3249551BC4C28F00CDA4B0 /* timesvideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timesvideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD3249581BC4C28F00CDA4B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FD32495A1BC4C28F00CDA4B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FD32495D1BC4C28F00CDA4B0 /* timesvideo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = timesvideo.xcdatamodel; sourceTree = "<group>"; };
+		FD3249601BC4C28F00CDA4B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FD3249621BC4C28F00CDA4B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FD3249641BC4C28F00CDA4B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FD3249521BC4C28F00CDA4B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FD32494C1BC4C28F00CDA4B0 = {
+			isa = PBXGroup;
+			children = (
+				FD3249571BC4C28F00CDA4B0 /* timesvideo */,
+				FD3249561BC4C28F00CDA4B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FD3249561BC4C28F00CDA4B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FD3249551BC4C28F00CDA4B0 /* timesvideo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FD3249571BC4C28F00CDA4B0 /* timesvideo */ = {
+			isa = PBXGroup;
+			children = (
+				FD3249581BC4C28F00CDA4B0 /* AppDelegate.swift */,
+				FD32495A1BC4C28F00CDA4B0 /* ViewController.swift */,
+				FD32495F1BC4C28F00CDA4B0 /* Main.storyboard */,
+				FD3249621BC4C28F00CDA4B0 /* Assets.xcassets */,
+				FD3249641BC4C28F00CDA4B0 /* Info.plist */,
+				FD32495C1BC4C28F00CDA4B0 /* timesvideo.xcdatamodeld */,
+			);
+			path = timesvideo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FD3249541BC4C28F00CDA4B0 /* timesvideo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD3249671BC4C28F00CDA4B0 /* Build configuration list for PBXNativeTarget "timesvideo" */;
+			buildPhases = (
+				FD3249511BC4C28F00CDA4B0 /* Sources */,
+				FD3249521BC4C28F00CDA4B0 /* Frameworks */,
+				FD3249531BC4C28F00CDA4B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = timesvideo;
+			productName = timesvideo;
+			productReference = FD3249551BC4C28F00CDA4B0 /* timesvideo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FD32494D1BC4C28F00CDA4B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "maxwell dasilva";
+				TargetAttributes = {
+					FD3249541BC4C28F00CDA4B0 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+				};
+			};
+			buildConfigurationList = FD3249501BC4C28F00CDA4B0 /* Build configuration list for PBXProject "timesvideo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FD32494C1BC4C28F00CDA4B0;
+			productRefGroup = FD3249561BC4C28F00CDA4B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FD3249541BC4C28F00CDA4B0 /* timesvideo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FD3249531BC4C28F00CDA4B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD3249631BC4C28F00CDA4B0 /* Assets.xcassets in Resources */,
+				FD3249611BC4C28F00CDA4B0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FD3249511BC4C28F00CDA4B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD32495B1BC4C28F00CDA4B0 /* ViewController.swift in Sources */,
+				FD32495E1BC4C28F00CDA4B0 /* timesvideo.xcdatamodeld in Sources */,
+				FD3249591BC4C28F00CDA4B0 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FD32495F1BC4C28F00CDA4B0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FD3249601BC4C28F00CDA4B0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FD3249651BC4C28F00CDA4B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		FD3249661BC4C28F00CDA4B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FD3249681BC4C28F00CDA4B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = timesvideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dayvson.tv.timesvideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FD3249691BC4C28F00CDA4B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = timesvideo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.dayvson.tv.timesvideo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FD3249501BC4C28F00CDA4B0 /* Build configuration list for PBXProject "timesvideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD3249651BC4C28F00CDA4B0 /* Debug */,
+				FD3249661BC4C28F00CDA4B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FD3249671BC4C28F00CDA4B0 /* Build configuration list for PBXNativeTarget "timesvideo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD3249681BC4C28F00CDA4B0 /* Debug */,
+				FD3249691BC4C28F00CDA4B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		FD32495C1BC4C28F00CDA4B0 /* timesvideo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				FD32495D1BC4C28F00CDA4B0 /* timesvideo.xcdatamodel */,
+			);
+			currentVersion = FD32495D1BC4C28F00CDA4B0 /* timesvideo.xcdatamodel */;
+			path = timesvideo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = FD32494D1BC4C28F00CDA4B0 /* Project object */;
+}
