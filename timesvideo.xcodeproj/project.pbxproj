@@ -7,24 +7,70 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FD2313CD1BC4C44F00F0519C /* TVServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FD2313CC1BC4C44F00F0519C /* TVServices.framework */; };
+		FD2313D01BC4C44F00F0519C /* ServiceProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD2313CF1BC4C44F00F0519C /* ServiceProvider.swift */; };
+		FD2313D41BC4C44F00F0519C /* timesvideo extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = FD2313CA1BC4C44F00F0519C /* timesvideo extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FD23141D1BC4C53100F0519C /* DataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23141A1BC4C53100F0519C /* DataItem.swift */; };
+		FD23141E1BC4C53100F0519C /* DataItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD23141A1BC4C53100F0519C /* DataItem.swift */; };
 		FD3249591BC4C28F00CDA4B0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD3249581BC4C28F00CDA4B0 /* AppDelegate.swift */; };
-		FD32495B1BC4C28F00CDA4B0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD32495A1BC4C28F00CDA4B0 /* ViewController.swift */; };
 		FD32495E1BC4C28F00CDA4B0 /* timesvideo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FD32495C1BC4C28F00CDA4B0 /* timesvideo.xcdatamodeld */; };
-		FD3249611BC4C28F00CDA4B0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD32495F1BC4C28F00CDA4B0 /* Main.storyboard */; };
 		FD3249631BC4C28F00CDA4B0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD3249621BC4C28F00CDA4B0 /* Assets.xcassets */; };
+		FD5293A91BC573E5006CB459 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5293A81BC573E5006CB459 /* SwiftyJSON.swift */; };
+		FD5293AA1BC5740E006CB459 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5293A81BC573E5006CB459 /* SwiftyJSON.swift */; };
+		FD5293AC1BC57561006CB459 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5293AB1BC57561006CB459 /* DataManager.swift */; };
+		FD5293AD1BC57686006CB459 /* DataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD5293AB1BC57561006CB459 /* DataManager.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		FD2313D21BC4C44F00F0519C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FD32494D1BC4C28F00CDA4B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD2313C91BC4C44F00F0519C;
+			remoteInfo = "timesvideo extension";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FD2313D81BC4C44F00F0519C /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FD2313D41BC4C44F00F0519C /* timesvideo extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		FD2313CA1BC4C44F00F0519C /* timesvideo extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "timesvideo extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FD2313CC1BC4C44F00F0519C /* TVServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TVServices.framework; path = System/Library/Frameworks/TVServices.framework; sourceTree = SDKROOT; };
+		FD2313CF1BC4C44F00F0519C /* ServiceProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ServiceProvider.swift; sourceTree = "<group>"; };
+		FD2313D11BC4C44F00F0519C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD23141A1BC4C53100F0519C /* DataItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataItem.swift; sourceTree = "<group>"; };
 		FD3249551BC4C28F00CDA4B0 /* timesvideo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = timesvideo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FD3249581BC4C28F00CDA4B0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FD32495A1BC4C28F00CDA4B0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		FD32495D1BC4C28F00CDA4B0 /* timesvideo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = timesvideo.xcdatamodel; sourceTree = "<group>"; };
-		FD3249601BC4C28F00CDA4B0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FD3249621BC4C28F00CDA4B0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD3249641BC4C28F00CDA4B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD5293A71BC573E5006CB459 /* SwiftyJSON.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwiftyJSON.h; sourceTree = "<group>"; };
+		FD5293A81BC573E5006CB459 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		FD5293AB1BC57561006CB459 /* DataManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataManager.swift; sourceTree = "<group>"; };
+		FD5293AE1BC594C4006CB459 /* timesvideo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = timesvideo.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FD2313C71BC4C44F00F0519C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD2313CD1BC4C44F00F0519C /* TVServices.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FD3249521BC4C28F00CDA4B0 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -35,10 +81,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FD2313CB1BC4C44F00F0519C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FD2313CC1BC4C44F00F0519C /* TVServices.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD2313CE1BC4C44F00F0519C /* timesvideo extension */ = {
+			isa = PBXGroup;
+			children = (
+				FD2313CF1BC4C44F00F0519C /* ServiceProvider.swift */,
+				FD2313D11BC4C44F00F0519C /* Info.plist */,
+			);
+			path = "timesvideo extension";
+			sourceTree = "<group>";
+		};
 		FD32494C1BC4C28F00CDA4B0 = {
 			isa = PBXGroup;
 			children = (
 				FD3249571BC4C28F00CDA4B0 /* timesvideo */,
+				FD2313CE1BC4C44F00F0519C /* timesvideo extension */,
+				FD2313CB1BC4C44F00F0519C /* Frameworks */,
 				FD3249561BC4C28F00CDA4B0 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +112,7 @@
 			isa = PBXGroup;
 			children = (
 				FD3249551BC4C28F00CDA4B0 /* timesvideo.app */,
+				FD2313CA1BC4C44F00F0519C /* timesvideo extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,12 +120,15 @@
 		FD3249571BC4C28F00CDA4B0 /* timesvideo */ = {
 			isa = PBXGroup;
 			children = (
+				FD5293AE1BC594C4006CB459 /* timesvideo.entitlements */,
+				FD5293A71BC573E5006CB459 /* SwiftyJSON.h */,
+				FD5293A81BC573E5006CB459 /* SwiftyJSON.swift */,
+				FD23141A1BC4C53100F0519C /* DataItem.swift */,
 				FD3249581BC4C28F00CDA4B0 /* AppDelegate.swift */,
-				FD32495A1BC4C28F00CDA4B0 /* ViewController.swift */,
-				FD32495F1BC4C28F00CDA4B0 /* Main.storyboard */,
 				FD3249621BC4C28F00CDA4B0 /* Assets.xcassets */,
 				FD3249641BC4C28F00CDA4B0 /* Info.plist */,
 				FD32495C1BC4C28F00CDA4B0 /* timesvideo.xcdatamodeld */,
+				FD5293AB1BC57561006CB459 /* DataManager.swift */,
 			);
 			path = timesvideo;
 			sourceTree = "<group>";
@@ -67,6 +136,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		FD2313C91BC4C44F00F0519C /* timesvideo extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FD2313D71BC4C44F00F0519C /* Build configuration list for PBXNativeTarget "timesvideo extension" */;
+			buildPhases = (
+				FD2313C61BC4C44F00F0519C /* Sources */,
+				FD2313C71BC4C44F00F0519C /* Frameworks */,
+				FD2313C81BC4C44F00F0519C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "timesvideo extension";
+			productName = "timesvideo extension";
+			productReference = FD2313CA1BC4C44F00F0519C /* timesvideo extension.appex */;
+			productType = "com.apple.product-type.tv-app-extension";
+		};
 		FD3249541BC4C28F00CDA4B0 /* timesvideo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FD3249671BC4C28F00CDA4B0 /* Build configuration list for PBXNativeTarget "timesvideo" */;
@@ -74,10 +160,12 @@
 				FD3249511BC4C28F00CDA4B0 /* Sources */,
 				FD3249521BC4C28F00CDA4B0 /* Frameworks */,
 				FD3249531BC4C28F00CDA4B0 /* Resources */,
+				FD2313D81BC4C44F00F0519C /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FD2313D31BC4C44F00F0519C /* PBXTargetDependency */,
 			);
 			name = timesvideo;
 			productName = timesvideo;
@@ -93,8 +181,18 @@
 				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "maxwell dasilva";
 				TargetAttributes = {
+					FD2313C91BC4C44F00F0519C = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = P8TC63N5HZ;
+					};
 					FD3249541BC4C28F00CDA4B0 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = P8TC63N5HZ;
+						SystemCapabilities = {
+							com.apple.ApplicationGroups.iOS = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -112,47 +210,88 @@
 			projectRoot = "";
 			targets = (
 				FD3249541BC4C28F00CDA4B0 /* timesvideo */,
+				FD2313C91BC4C44F00F0519C /* timesvideo extension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		FD2313C81BC4C44F00F0519C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FD3249531BC4C28F00CDA4B0 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FD3249631BC4C28F00CDA4B0 /* Assets.xcassets in Resources */,
-				FD3249611BC4C28F00CDA4B0 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		FD2313C61BC4C44F00F0519C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD5293AD1BC57686006CB459 /* DataManager.swift in Sources */,
+				FD23141E1BC4C53100F0519C /* DataItem.swift in Sources */,
+				FD5293AA1BC5740E006CB459 /* SwiftyJSON.swift in Sources */,
+				FD2313D01BC4C44F00F0519C /* ServiceProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FD3249511BC4C28F00CDA4B0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD32495B1BC4C28F00CDA4B0 /* ViewController.swift in Sources */,
 				FD32495E1BC4C28F00CDA4B0 /* timesvideo.xcdatamodeld in Sources */,
+				FD23141D1BC4C53100F0519C /* DataItem.swift in Sources */,
+				FD5293AC1BC57561006CB459 /* DataManager.swift in Sources */,
+				FD5293A91BC573E5006CB459 /* SwiftyJSON.swift in Sources */,
 				FD3249591BC4C28F00CDA4B0 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXVariantGroup section */
-		FD32495F1BC4C28F00CDA4B0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				FD3249601BC4C28F00CDA4B0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
+/* Begin PBXTargetDependency section */
+		FD2313D31BC4C44F00F0519C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FD2313C91BC4C44F00F0519C /* timesvideo extension */;
+			targetProxy = FD2313D21BC4C44F00F0519C /* PBXContainerItemProxy */;
 		};
-/* End PBXVariantGroup section */
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		FD2313D51BC4C44F00F0519C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "timesvideo extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dayvson.tv.timesvideo.timesvideo-extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		FD2313D61BC4C44F00F0519C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "timesvideo extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @executable_path/../../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.dayvson.tv.timesvideo.timesvideo-extension";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		FD3249651BC4C28F00CDA4B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -239,10 +378,15 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = timesvideo/timesvideo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = timesvideo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dayvson.tv.timesvideo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
@@ -251,16 +395,30 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_ENTITLEMENTS = timesvideo/timesvideo.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "iPhone Developer";
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
 				INFOPLIST_FILE = timesvideo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dayvson.tv.timesvideo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FD2313D71BC4C44F00F0519C /* Build configuration list for PBXNativeTarget "timesvideo extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FD2313D51BC4C44F00F0519C /* Debug */,
+				FD2313D61BC4C44F00F0519C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FD3249501BC4C28F00CDA4B0 /* Build configuration list for PBXProject "timesvideo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -277,6 +435,7 @@
 				FD3249691BC4C28F00CDA4B0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 

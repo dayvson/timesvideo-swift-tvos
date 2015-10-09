@@ -4,6 +4,11 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>timesvideo extension.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>1</integer>
+		</dict>
 		<key>timesvideo.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +17,11 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>FD2313C91BC4C44F00F0519C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>FD3249541BC4C28F00CDA4B0</key>
 		<dict>
 			<key>primary</key>
